@@ -137,6 +137,74 @@ ul{
   #logo-radio{
     width: 70px;
   }
+  .derechos{
+    font-size: 13px;
+  }
+}
+@media (max-width: 390px){
+  #logo-teleticaradio{
+    width: 70%;
+  }
+  #pausar img{
+    width: 55%;
+  }
+  #reproducir img{
+    width: 55%;
+  }
+  #asset{
+    display: none;
+  }
+  #cabina{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 11px;
+  }
+  #logo-generamos{
+    width: 167px;
+  }
+  #logo-radio{
+    width: 55px;
+  }
+  .derechos{
+    font-size: 12.5px;
+  }
+}
+@media (max-width: 320px){
+  #logo-teleticaradio{
+    width: 70%;
+  }
+  #pausar img{
+    width: 55%;
+  }
+  #reproducir img{
+    width: 55%;
+  }
+  #asset{
+    display: none;
+  }
+  #cabina{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 8.5px;
+  }
+  #logo-generamos{
+    width: 158px;
+  }
+  #logo-radio{
+    width: 40px;
+  }
+  #teletica-logo{
+    width: 100px;
+  }
+  #com-logo{
+    width: 100px;
+  }
+  #radio-logo{
+    width: 100px;
+  }
+  .derechos{
+    font-size: 12px;
+  }
 }
 
 
