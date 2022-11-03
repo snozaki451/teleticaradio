@@ -7,7 +7,6 @@ body{
   background-image: url("../img/fondo001.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 ul{
   list-style: none;
