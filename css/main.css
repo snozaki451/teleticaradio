@@ -1,0 +1,209 @@
+html {
+  height: 100%;
+}
+body{
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/new-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ul{
+  list-style: none;
+}
+#b-stop{
+  display: none;
+  
+  transition: all 0.5s;
+  -webkit-border-radius:50%;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+}
+#reproducir img:hover{
+  filter: saturate(200%);
+  transition: all 0.5s;
+  -webkit-border-radius:50%;
+  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  width: 28%;
+}
+#pausar img:hover{
+  width: 28%;
+}
+
+#logo-teletica{
+  padding-left: 15px;
+}
+#cabina{
+  color: #fff;
+  height: 100%;
+  padding: 20px;
+  text-decoration: none;
+}
+#cabina:hover{
+  background: #1c4da1;
+   -webkit-transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.5s linear;
+  transition: background-color 0.5s linear;
+}
+
+
+
+
+/* Footer
+*******************************************************************************/
+.footer{
+  background-color: #000;
+  width: 100%;
+  padding: 50px 0 0;
+  margin: 0px 0 0;
+  display: inline-block;
+  position: relative;
+  background-image: none;
+}
+.footer::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #92c83e;
+  background-size: 100%; 
+}
+.footer ul li a{
+  color: #fff;
+}
+.footer ul li a:hover{
+  color: #f05d21;
+}
+#social li{
+  display: inline;
+  padding-left:10px;
+  padding-right:10px;
+  font-size: 30px;
+}
+#social li a i{
+  color: #5c5c5c;
+  transition: all .15s ease;
+}
+#social li a.facebook:hover i{
+  color: #3b5998;
+}
+#social li a.instagram:hover i{
+  color: pink;
+}
+#social li a.twitter:hover i{
+  color: #1da1f2;
+}
+#social li a.youtube:hover i{
+  color: #de2825;
+}
+.derechos{
+  background-color: #242426;
+  color: #fff;
+}
+
+.layer-estrella2{
+  display: none;
+}
+.layer-letras_estrellas2 {
+  display: none;
+}
+
+@media (max-width: 480px){
+  #logo-teleticaradio{
+    width: 70%;
+  }
+  #pausar img{
+    width: 55%;
+  }
+  #reproducir img{
+    width: 55%;
+  }
+  #asset{
+    display: none;
+  }
+  #cabina{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 12px;
+  }
+  #logo-generamos{
+    width: 180px;
+  }
+  #logo-radio{
+    width: 70px;
+  }
+  .derechos{
+    font-size: 13px;
+  }
+}
+@media (max-width: 390px){
+  #logo-teleticaradio{
+    width: 70%;
+  }
+  #pausar img{
+    width: 55%;
+  }
+  #reproducir img{
+    width: 55%;
+  }
+  #asset{
+    display: none;
+  }
+  #cabina{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 11px;
+  }
+  #logo-generamos{
+    width: 167px;
+  }
+  #logo-radio{
+    width: 55px;
+  }
+  .derechos{
+    font-size: 12.5px;
+  }
+}
+@media (max-width: 320px){
+  #logo-teleticaradio{
+    width: 70%;
+  }
+  #pausar img{
+    width: 55%;
+  }
+  #reproducir img{
+    width: 55%;
+  }
+  #asset{
+    display: none;
+  }
+  #cabina{
+    color: #fff;
+    padding-top: 20px;
+    font-size: 8.5px;
+  }
+  #logo-generamos{
+    width: 158px;
+  }
+  #logo-radio{
+    width: 40px;
+  }
+  #teletica-logo{
+    width: 100px;
+  }
+  #com-logo{
+    width: 100px;
+  }
+  #radio-logo{
+    width: 100px;
+  }
+  .derechos{
+    font-size: 12px;
+  }
+}
+
+
